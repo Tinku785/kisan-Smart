@@ -7,6 +7,7 @@ import Home from './pages/Home';
 import LocateLand from './pages/LocateLand';
 import Dashboard from './pages/Dashboard';
 import DetailedPlan from './pages/DetailedPlan';
+import ChatBot from './components/ChatBot';
 
 function App() {
   return (
@@ -19,6 +20,7 @@ function App() {
           <Route path="/dashboard" element={<Dashboard />} />
           <Route path="/detailed-plan" element={<DetailedPlan />} />
         </Routes>
+        <ChatBot />
       </Router>
     </LanguageProvider>
   );

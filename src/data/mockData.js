@@ -1,5 +1,4 @@
 // src/data/mockData.js
-
 export const mockLandData = {
   landDetails: {
     owner: "Rajesh Kumar",
