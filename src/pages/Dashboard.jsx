@@ -2,7 +2,7 @@ import React from 'react';
 import { Link } from 'react-router-dom';
 import Navbar from '../components/Navbar';
 // Import the fake data
-import { mockLandData } from '../data/mockdata';
+import { mockLandData } from '../data/mockData';
 
 const Dashboard = () => {
   const data = mockLandData;
