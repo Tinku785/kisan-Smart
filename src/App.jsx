@@ -7,6 +7,8 @@ import Home from './pages/Home';
 import LocateLand from './pages/LocateLand';
 import Dashboard from './pages/Dashboard';
 import DetailedPlan from './pages/DetailedPlan';
+import LearningCenter from './pages/LearningCenter';
+import Schemes from './pages/Schemes';
 import ChatBot from './components/ChatBot';
 
 function App() {
@@ -19,6 +21,8 @@ function App() {
           <Route path="/locate" element={<LocateLand />} />
           <Route path="/dashboard" element={<Dashboard />} />
           <Route path="/detailed-plan" element={<DetailedPlan />} />
+          <Route path="/learning-center" element={<LearningCenter />} />
+          <Route path="/schemes" element={<Schemes />} />
         </Routes>
         <ChatBot />
       </Router>
